@@ -39,10 +39,10 @@ class OfficeHome(ImageList):
         ("Real_World", "Real_World.tgz", "https://cloud.tsinghua.edu.cn/f/dee961894cc64b1da1d7/?dl=1")
     ]
     image_list = {
-        "Ar": "image_list/Art.txt",
-        "Cl": "image_list/Clipart.txt",
-        "Pr": "image_list/Product.txt",
-        "Rw": "image_list/Real_World.txt",
+        "Ar": "image_list/image_list/Art.txt",
+        "Cl": "image_list/image_list/Clipart.txt",
+        "Pr": "image_list/image_list/Product.txt",
+        "Rw": "image_list/image_list/Real_World.txt",
     }
     CLASSES = ['Drill', 'Exit_Sign', 'Bottle', 'Glasses', 'Computer', 'File_Cabinet', 'Shelf', 'Toys', 'Sink',
                'Laptop', 'Kettle', 'Folder', 'Keyboard', 'Flipflops', 'Pencil', 'Bed', 'Hammer', 'ToothBrush', 'Couch',
